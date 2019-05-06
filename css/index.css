@@ -58,10 +58,19 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.page{
+    width:90%
+}
 
+.index-jumbo{
+    padding:10px;
+    box-sizing: border-box;
+    position: relative;
+    left: 100px;
+   }
 .title-bar {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .logo {
@@ -209,15 +218,18 @@ footer nav a {
     justify-content: start;
 }
 .about-about{
-    border-bottom: 1px solid black;
+    border-bottom: 1px dashed black;
     padding-bottom:20px;
 }
 .content-area{
+    position: relative;
+    right:5px;
     width:370px;
     height:400px;
-    padding:5px;
+    padding:0 10px;
     box-sizing: border-box;
-    margin:5px;
+    margin:10px auto;
+    border-bottom: 1px dashed black;
 }
 .learn-more-btn{
     position: relative;
@@ -229,11 +241,7 @@ footer nav a {
     border:1px solid black;
     border-radius: 15px;
 }
-.together{
-    border-top:1px solid black;
-    padding-top:50px;
 
-}
 .work-together{
     margin-bottom:20px;
 }
