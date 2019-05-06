@@ -3,48 +3,41 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -65,6 +58,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.page{
+    width:90%
+}
+
+.index-jumbo{
+    padding:10px;
+    box-sizing: border-box;
+    position: relative;
+    left: 100px;
+   }
+.title-bar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.nav-item-h {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 30px 20px;
+}
 
 .container {
     width: 800px;
@@ -82,7 +109,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +131,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +169,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.box.a {
+    background:teal;
+}
+
+.box.b {
+    background:gold;
+}
+
+.box.c {
+    background:cadetblue;
+}
+
+.box.d {
+    background:coral;
+}
+
+.box.e {
+    background:crimson;
+}
+
+.box.f {
+    background:forestgreen;
+}
+
+.box.g {
+    background:darkorchid;
+}
+
+.box.h {
+    background:hotpink;
+}
+
+.box.i {
+    background:indigo;
+}
+
+.box.j {
+    background:dodgerblue;
+}
+
+.middle-area-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.about-about{
+    border-bottom: 1px dashed black;
+    padding-bottom:20px;
+}
+.content-area{
+    position: relative;
+    right:5px;
+    width:370px;
+    height:400px;
+    padding:0 10px;
+    box-sizing: border-box;
+    margin:10px auto;
+    border-bottom: 1px dashed black;
+}
+.learn-more-btn{
+    position: relative;
+    top:20px;
+    text-decoration: none;
+    padding:10px;
+    text-align: start;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 15px;
+}
+
+.work-together{
+    margin-bottom:20px;
 }
